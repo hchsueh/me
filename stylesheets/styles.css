@@ -465,6 +465,10 @@ section {
   padding-bottom:50px;
 }
 
+.publication_description status {
+  font-style: italic;
+}
+
 
 /* Footer */
 
