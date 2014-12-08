@@ -206,6 +206,7 @@ td {
 .wrapper {
   /*width:960px;*/
   width: 1280px;
+  padding-top: 50px;
 }
 
 
@@ -369,6 +370,10 @@ section {
   width: 970px;
   float:right;
   padding-bottom:50px;
+}
+
+section p {
+  font-size: 16px;
 }
 
 .publication_description status {
