@@ -369,11 +369,31 @@ section {
   width: 970px;
   float:right;
   padding-bottom:50px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
-section p {
+section * {
   font-size: 16px;
+}
+
+.publication_description li{
+  font-size: 16px;
+  /*color: #474747;*/
+  line-height: 25px;
+  display: table-row;
+  text-align: justify;
+}
+
+.publication_description li:before{
+  content:"\00BB \0020";
+  display: table-cell;
+  padding-right: 5px;
+}
+
+.publication_description name{
+  /*color: #A06D20;*/
+  /*color: #089108;*/
+  font-weight:800;
 }
 
 .publication_description status {
