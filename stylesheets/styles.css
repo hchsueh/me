@@ -318,7 +318,7 @@ header {
   background-color: #171717;
   color: #FDFDFB;
   width:170px;
-  height: 500px;
+  height: 370px;
   float:left;
   position:fixed;
   border: 1px solid #000;
@@ -338,8 +338,9 @@ p.header {
 }
 
 h1.header {
-  font-family: 'Arvo', sans-serif;
-  font-size: 30px;
+  /*font-family: 'Arvo', sans-serif;*/
+  font-family: 'veneer', sans-serif;
+  font-size: 23.5px;
   font-weight: 300;
   line-height: 1.3em;
   border-bottom: none;
@@ -365,16 +366,18 @@ header ul {
 }
 
 header li.item{
+  transition: background-color 100ms linear;
   list-style-type: none;
-  width:132px;
-  height:30px;
+  /*width:132px;*/
+  width: 80%;
+  height:40px;
   margin-bottom: 12px;
   /*line-height: 1em;*/
-  line-height: 30px;
+  line-height: 40px;
   /*padding: 6px 6px 6px 7px;*/
 
   /*background: #AF0011;*/
-  background: #d83c3c;
+  /*background: #d83c3c;*/
   /*
   background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -392,7 +395,9 @@ header li.item{
 }
 
 header li.item:hover {
-  background: #ff3c3c;
+  /*background: #ff3c3c;*/
+  background: #373737;
+  transition: background-color 100ms linear;
   /*
   background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
