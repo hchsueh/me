@@ -1,5 +1,113 @@
 <section>
-	<h2>Photos</h2>
+
+	<h2 class='section_title'>Photos</h2>
+
+	<div class='thumbs'>
+		<img src="./images/Photos/travel_dahu1.jpg"/ class='thumbnail' id="thumb1">
+		<img src="./images/Photos/travel_dahu2.jpg"/ class='thumbnail' id="thumb2">	
+		<img src="./images/Photos/travel_pinghsi.jpg"/ class='thumbnail' id="thumb3">
+		<img src="./images/Photos/travel_miniaturesMuseum.jpg"/ class='thumbnail' id="thumb12">
+		<img src="./images/Photos/travel_chocoholic.jpg"/ class='thumbnail' id="thumb13">
+		<img src="./images/Photos/AMT_camp.jpg"/ class='thumbnail' id="thumb14">
+		<img src="./images/Photos/AMT_dinner.jpg"/ class='thumbnail' id="thumb15">
+		<img src="./images/Photos/travel_wulai.jpg"/ class='thumbnail' id="thumb4">
+		<img src="./images/Photos/travel_flugel1.jpg"/ class='thumbnail' id="thumb5">
+		<img src="./images/Photos/travel_flugel2.jpg"/ class='thumbnail' id="thumb6">
+		<img src="./images/Photos/travel_flugel3.jpg"/ class='thumbnail' id="thumb7">
+		<!--<img src="./images/Photos/baking_bakedApple.jpg"/ class='thumbnail' id="thumb8">
+		<img src="./images/Photos/baking_pavlova.jpg"/ class='thumbnail' id="thumb9">-->
+		<img src="./images/Photos/travel_nikujaga.jpg"/ class='thumbnail' id="thumb10">
+		<img src="./images/Photos/Quadcopter_team.jpg"/ class='thumbnail' id="thumb11">
+		<div style="width:100%; height: 50px"></div>
+	</div>
+	<div class='big_img'>
+		<figure class='show'>
+			<img src="./images/Photos/travel_dahu1.jpg"/>
+			<p>Strawberry farm, Dahu, Taoyuan City, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_dahu2.jpg"/>
+			<p>Strawberry farm, Dahu, Taoyuan City, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_pinghsi.jpg"/>
+			<p>Ping-hsi, New Taipei City, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_wulai.jpg"/>
+			<p>Wu-lai, New Taipei City, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_flugel1.jpg"/>
+			<p>Die Fl&#252;gel Cake House, Taipei, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_flugel2.jpg"/>
+			<p>Chocolate pavlova with raspberries and whipped cream, Die Fl&#252;gel Cake House, Taipei, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_flugel3.jpg"/>
+			<p>Southern French fruit mousse with ladyfingers, Die Fl&#252;gel Cake House, Taipei, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/baking_bakedApple.jpg"/>
+			<p>Baked cinnamon caramel apple (baked at school)</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/baking_pavlova.jpg"/>
+			<p>Pavlova with berries, kiwifruit and yogurt (baked at home)</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_nikujaga.jpg"/>
+			<p>Nikujaga (Japanese pork and potato stew), Taipei, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/Quadcopter_team.jpg"/>
+			<p>The quadcopter team :) @ NTU EE Building I, front door</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_miniaturesMuseum.jpg"/>
+			<p>Miniature, Miniatures Museum, Taipei, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/travel_chocoholic.jpg"/>
+			<p>Equipments for Mexican chocolate cooking, Chocoholic Chocolate House, Taipei, Taiwan</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/AMT_camp.jpg"/>
+			<p>Silicon Valley trip,  front door of Applied Materials Maydan Technology Center, CA, U.S.A</p>
+		</figure>
+		<figure>
+			<img src="./images/Photos/AMT_dinner.jpg"/>
+			<p>Applied Materials Innovation Camp 10th anniversary reunion, Taipei, Taiwan</p>
+		</figure>
+	</div>
+
 </section>
 
 
+
+<script>
+
+(function(){
+var thumbnails = document.getElementsByClassName("thumbnail");
+$items = document.querySelectorAll('.big_img figure');
+/*
+var switchBigImage = function(number){
+	console.log(number);
+};*/
+
+for(var i=0 ; i<thumbnails.length ; i++){
+    thumbnails[i].addEventListener('click', function(){
+    	var len = this.id.length;
+    	var thumb_num = this.id.substr(5,len-1);
+
+    	[].forEach.call( $items, function(el){
+    		el.classList.remove('show');
+  		});
+  		$items[Number(thumb_num)-1].classList.add('show');    
+    }, false);
+}
+
+})();
+</script>

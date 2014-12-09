@@ -614,6 +614,85 @@ strong {
   padding-right: 5px;
 }
 
+/*Photos*/
+
+.thumbs{
+  width: 30%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: visible;
+  float: left;
+  padding-top: 30px;
+  padding-right: 0px;
+}
+
+.thumbs img{
+  width:30%;
+  float:left;
+  margin: 5px;
+  margin-top: 0px;
+  border-radius:3px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s opacity;
+}
+
+.thumbs img:hover{
+  opacity: 1;
+  transition: 0.3s opacity;
+}
+
+.big_img{
+  width: 70%;
+  height: 100vh;
+  float: left;
+  padding-top: 30px;
+}
+
+.big_img figure{
+  position: absolute;
+  opacity: 0;
+  transition: .5s opacity;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #ddd;
+  padding-left: 0;
+}
+
+.big_img figure.show{
+  opacity: 1;
+  transition: .5s opacity;
+}
+
+.big_img img{
+  width: 80%;
+  height: auto;
+  box-shadow:0 0 8px rgba(0,0,0,0.3);
+  display:block;
+  border-radius:15px;
+  margin: 0 auto;
+}
+
+.big_img p{
+  position: absolute;
+  width: 80%;
+  height: 30px;
+  line-height: 30px;
+  color: #ddd;
+  background: rgba(0,0,0,0.7);
+  opacity: 0.7;
+  display:block;
+  margin-left: 10%;
+  margin-bottom: 0;
+  bottom: 0;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
 
 /* Footer */
 
