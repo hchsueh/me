@@ -216,8 +216,8 @@ td {
 header {
   background-color: #282828;
   color: #FDFDFB;
-  width:170px;
-  height: 410px;
+  /*width:170px;*/
+  /*height: 410px;*/
   float:left;
   position:fixed;
   border: 1px solid #000;
@@ -228,13 +228,19 @@ header {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   padding: 34px 25px 22px 50px;
+  
+  width: 150px;
+  height: 390px;
+  padding-left: 30px;
+
   margin: 30px 25px 0 0;
   -webkit-font-smoothing: antialiased;
 }
 
 .row_spacer_1 {
   width: 100%;
-  height: 30px;
+  /*height: 30px;*/
+  height: 15px;
 }
 
 italic {
@@ -248,15 +254,14 @@ p.header {
 h1.header {
   /*font-family: 'Arvo', sans-serif;*/
   font-family: 'veneer', sans-serif;
-  width: 83%;
-  font-size: 23.5px;
+  /*width: 83%;*/
+  width:93%;
+  /*font-size: 23.5px;*/
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.3em;
-  border-bottom: none;
-  margin-top: 0;
-}
-
-h1.header {
+  /*border-bottom: none;*/
+  margin-top: 5px;
   border-bottom: 1px solid #808080;
 }
 
@@ -285,8 +290,11 @@ header li.item{
   transition: background-color 100ms linear;
   list-style-type: none;
   /*width:132px;*/
-  width: 80%;
+  /*width: 80%;*/
+  width:93%;
   height:40px;
+  margin-left:0;
+  margin-right:0;
   margin-bottom: 12px;
   /*line-height: 1em;*/
   line-height: 40px;
@@ -336,7 +344,7 @@ header li a {
   width: 100%;
   height: 100%;
   margin: 0px;
-  line-height: 30px;
+  /*line-height: 30px;*/
 }
 
 header li a:hover {
@@ -378,11 +386,14 @@ a.buttons:hover {
 
 section {
   /*width:650px;*/
+  width: 980px;
   display: block;
-  width: 970px;
   float:right;
   padding-bottom:50px;
   margin-top: 25px;
+
+  width: 850px;
+  margin-right: 120px;
 }
 
 .section_title {
@@ -406,6 +417,15 @@ section a {
 strong {
   font-weight: 600;
 }
+
+/*About*/
+
+ul.about li {
+  list-style-type: none;
+}
+
+
+/*Publications*/
 
 .publication_description li{
   font-size: 16px;
@@ -487,7 +507,7 @@ strong {
 .research_container {
   width: 100%;
   height: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   display: block;
 }
 
@@ -500,7 +520,8 @@ strong {
 
 .research_imgs{
   float: left;
-  width: 35%;
+  /*width: 35%;*/
+  width: 40%;
   height: 200px;
   margin-top: 10px;
   overflow: hidden;
@@ -587,7 +608,8 @@ strong {
 
 .research_content{
   float: right;
-  width: 62%;
+  /*width: 62%;*/
+  width:57%;
 }
 
 .temp{
@@ -627,9 +649,9 @@ strong {
 }
 
 .thumbs img{
-  width:15%;
+  width:18%;
   float:left;
-  margin: 5px;
+  margin: 6px;
   margin-top: 0px;
   border-radius:3px;
   cursor: pointer;
