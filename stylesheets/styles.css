@@ -253,7 +253,8 @@ p.header {
 
 h1.header {
   /*font-family: 'Arvo', sans-serif;*/
-  font-family: 'veneer', sans-serif;
+  /*font-family: 'veneer', sans-serif;*/
+  font-family: 'Lato';
   /*width: 83%;*/
   width:93%;
   /*font-size: 23.5px;*/
@@ -299,6 +300,8 @@ header li.item{
   /*line-height: 1em;*/
   line-height: 40px;
   font-size: 16px;
+  /*font-family: 'Droid Sans';*/
+  font-family: 'Lato';
   /*padding: 6px 6px 6px 7px;*/
 
   /*background: #AF0011;*/
@@ -394,6 +397,7 @@ section {
 
   width: 850px;
   margin-right: 120px;
+  font-family: 'Lato';
 }
 
 .section_title {
@@ -402,15 +406,15 @@ section {
 }
 
 section p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 section li {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 section a {
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
 }
 
@@ -511,9 +515,14 @@ ul.about li {
   display: block;
 }
 
+.container_straight {
+  height: 400px;
+  margin-bottom: 70px;
+}
+
 .research_container img{
   display:block;
-  max-height: 200px;
+  /*max-height: 200px;*/
   border-radius: 10px;
   /*margin-right: 15px;*/
 }
@@ -525,6 +534,18 @@ ul.about li {
   height: 200px;
   margin-top: 10px;
   overflow: hidden;
+}
+
+.imgs_straight {
+  width:30%;
+  /*height: 350px;*/
+  height: auto;
+}
+
+.imgs_straight img{
+  width: 90%;
+  /*width:auto;
+  height: 300px;*/
 }
 
 .slideshow{
@@ -554,10 +575,14 @@ ul.about li {
   border-bottom-right-radius: 10px;
   
   width: 100%;
-  height: 40px;
+  height: 44px;
   font-size: 14px;
   text-align: center;
-  line-height: 20px;
+  line-height: 22px;
+}
+
+.slideshow figcaption.straight {
+  width:90%;
 }
 
 .slideshow .next, .prev{
@@ -570,6 +595,7 @@ ul.about li {
   opacity: .3;
   user-select: none;
   transition: 0.2s opacity;
+  font-size:22px;
 }
 
 .slideshow .next:hover, .prev:hover{
@@ -610,6 +636,11 @@ ul.about li {
   float: right;
   /*width: 62%;*/
   width:57%;
+}
+
+.research_content_BioCAS {
+  float: right;
+  width:70%;
 }
 
 .temp{
