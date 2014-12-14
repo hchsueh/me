@@ -3,9 +3,11 @@
           $(document).ready(function(){
               $(".scrollable_content").mCustomScrollbar({
                 theme:"minimal-dark",
-                scrollInertia: 0,
+                scrollInertia: 1,
                 autoExpandScrollbar: true,
-                scrollbarPosition: "outside"
+                scrollbarPosition: "outside",
+                mouseWheel:{ scrollAmount: 30,
+                			 normalizeDelta: false}
               });
           });
       })(jQuery);
