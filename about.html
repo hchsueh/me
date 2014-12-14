@@ -1,6 +1,18 @@
-<section>
+<script>
+      (function($){
+          $(document).ready(function(){
+              $(".scrollable_content").mCustomScrollbar({
+                theme:"minimal-dark"
+              });
+          });
+      })(jQuery);
+</script>
+<!-- <div class='scrollable_content'> -->
+<section class='scrollable_content'>
 	<h2 class='section_title'>About</h2>
 	<ul class='about'>
+		<div class="circle" style="background-image: url(./images/me.jpg)">
+		</div>
 		<li>
 			<p><strong>Education</strong><br> National Taiwan University - major in Electrical Engineering<br>overall GPA: 4.06/4.3</p>
 		</li>
@@ -17,7 +29,7 @@
 		</li>
 		<li>
 			<p><strong>Contact</strong><br>- hchsuehgm@gmail.com<br>- <a href="http://tw.linkedin.com/in/hchsueh">tw.linkedin.com/in/hchsueh</a></p>
+		</li>
 	</ul>
 </section>
-
-
+<!-- </div> -->
