@@ -2,7 +2,10 @@
       (function($){
           $(document).ready(function(){
               $(".scrollable_content").mCustomScrollbar({
-                theme:"minimal-dark"
+                theme:"minimal-dark",
+                scrollInertia: 3,
+                autoExpandScrollbar: true,
+                scrollbarPosition: "outside"
               });
           });
       })(jQuery);
@@ -236,7 +239,8 @@
 			</div>
 		</div>
 
-		<div class="row_spacer_medium"></div>
+		<!-- <div class="row_spacer_medium"></div> -->
+		<div class="row_spacer_2"></div>
 	</div>
 </section>
 

@@ -2,7 +2,10 @@
       (function($){
           $(document).ready(function(){
               $(".scrollable_content").mCustomScrollbar({
-                theme:"minimal-dark"
+                theme:"minimal-dark",
+                scrollInertia: 0,
+                autoExpandScrollbar: true,
+                scrollbarPosition: "outside"
               });
           });
       })(jQuery);
@@ -31,5 +34,6 @@
 			<p><strong>Contact</strong><br>- hchsuehgm@gmail.com<br>- <a href="http://tw.linkedin.com/in/hchsueh">tw.linkedin.com/in/hchsueh</a></p>
 		</li>
 	</ul>
+	<div class='row_spacer_2'></div>
 </section>
 <!-- </div> -->
