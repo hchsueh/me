@@ -254,6 +254,11 @@ header {
   height: 50px;
 }
 
+.row_spacer_3 {
+  width:100%;
+  height: 100px;
+}
+
 italic {
   font-style: italic;
 }
@@ -409,7 +414,7 @@ section {
   /*width: 850px;*/
   width: 850px;
   padding-right:50px;
-  margin-right: 120px;
+  margin-right: 100px;
   font-family: 'Lato';
 }
 

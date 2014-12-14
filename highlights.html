@@ -3,12 +3,12 @@
           $(document).ready(function(){
               $(".scrollable_content").mCustomScrollbar({
                 theme:"dark",
-                scrollInertia: 0,
                 autoExpandScrollbar: true,
                 scrollbarPosition: "outside",
-                autoHideScrollbar: true,
-                mouseWheel:{ scrollAmount: 30,
-                			 normalizeDelta: false}
+                scrollInertia: 200
+                // autoHideScrollbar: true,
+                // mouseWheel:{ scrollAmount: 30,
+                // 			 normalizeDelta: false}
               });
           });
       })(jQuery);
@@ -16,7 +16,7 @@
 
 <section class='scrollable_content'>
 
-	<div class='content'>
+	<!-- <div class='content'> -->
 
 		<h2 class='section_title'>Highlights</h2>
 
@@ -122,6 +122,6 @@
 			</div>
 		</div>
 
-		<div class="row_spacer_medium"></div>
+		<div class="row_spacer_2"></div>
 
 </section>

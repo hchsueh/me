@@ -3,21 +3,19 @@
           $(document).ready(function(){
               $(".scrollable_content").mCustomScrollbar({
                 theme:"minimal-dark",
-                scrollInertia: 1,
                 autoExpandScrollbar: true,
-                scrollbarPosition: "outside",
-                mouseWheel:{ scrollAmount: 30,
-                			 normalizeDelta: false}
+                scrollInertia: 40
               });
           });
       })(jQuery);
 </script>
 <!-- <div class='scrollable_content'> -->
 <section class='scrollable_content'>
-	<h2 class='section_title'>About</h2>
+	<!-- <h2 class='section_title'>About</h2> -->
+
 	<ul class='about'>
-		<div class="circle" style="background-image: url(./images/me.jpg)">
-		</div>
+		<div class="circle" style="background-image: url(./images/me.jpg)"></div>
+		<div class='row_spacer_1'></div>
 		<li>
 			<p><strong>Education</strong><br> National Taiwan University - major in Electrical Engineering<br>overall GPA: 4.06/4.3</p>
 		</li>
@@ -36,6 +34,6 @@
 			<p><strong>Contact</strong><br>- hchsuehgm@gmail.com<br>- <a href="http://tw.linkedin.com/in/hchsueh">tw.linkedin.com/in/hchsueh</a></p>
 		</li>
 	</ul>
-	<div class='row_spacer_2'></div>
+	<div class='row_spacer_3'></div>
 </section>
 <!-- </div> -->
