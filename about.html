@@ -1,13 +1,25 @@
 <script>
       (function($){
           $(document).ready(function(){
+          	//if ( $(window).width() >= 1200) {  
               $(".scrollable_content").mCustomScrollbar({
                 theme:"minimal-dark",
                 autoExpandScrollbar: true,
                 scrollInertia: 300,
                 mouseWheel:{ scrollAmount: 130 }
-              });
+            	});
+          	//}
           });
+
+          // $(window).resize(function() {
+          // 	if ( $(window).width() >= 1200) {  
+          // 		$(".scrollable_content").mCustomScrollbar("update");
+                
+          // 	}
+          // 	else {
+          // 		$(".scrollable_content").mCustomScrollbar("disable",true);
+          // 	}
+          // });
       })(jQuery);
 </script>
 <!-- <div class='scrollable_content'> -->

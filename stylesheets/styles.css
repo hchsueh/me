@@ -827,6 +827,10 @@ footer {
     margin:0;
   }
   
+  body {
+    overflow-y: scroll;
+  }
+
   header, section, footer {
     float:none;
     position:static;
