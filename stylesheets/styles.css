@@ -826,10 +826,6 @@ footer {
     width:auto;
     margin:0;
   }
-  
-  body {
-    overflow-y: scroll;
-  }
 
   header, section, footer {
     float:none;
@@ -848,6 +844,10 @@ footer {
     height: 300px;
   }
   
+  body {
+    overflow: scroll;
+  }
+
   section {
     padding:20px 84px 20px 50px;
     margin:0 0 20px;
