@@ -555,7 +555,14 @@ ul.about li {
 .research_container img{
   display:block;
   /*max-height: 200px;*/
+  max-width:94%;
+  margin: 5px;
   border-radius: 10px;
+  border: 5px solid #eee;
+  /*box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);  */
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
   /*margin-right: 15px;*/
 }
 
@@ -563,8 +570,8 @@ ul.about li {
   float: left;
   /*width: 35%;*/
   width: 40%;
-  height: 210px;
-  margin-top: 10px;
+  height: 240px;
+  margin-top: 5px;
   overflow: hidden;
 }
 
@@ -600,13 +607,18 @@ ul.about li {
 
 .slideshow figcaption{
   position: absolute;
-  bottom: 0;
+  /*bottom: 0;*/
+  bottom: 10px;
+  left: 10px;
   color: #ddd;
   background: rgba(0,0,0, .5);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  /*border-bottom-left-radius: 10px;*/
+  /*border-bottom-right-radius: 10px;*/
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   
-  width: 100%;
+  /*width: 100%;*/
+  width:94%;
   height: 44px;
   font-size: 14px;
   text-align: center;
@@ -637,17 +649,18 @@ ul.about li {
 }
 
 .slideshow .next{
-  right: 0;
+  right: 10px;
   padding: 10px 5px 15px 10px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .slideshow .prev{
-  left: 0;
+  left: 5px;
+  margin-left: 5px;
   padding: 10px 10px 15px 5px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .noselect {
@@ -667,7 +680,8 @@ ul.about li {
 .research_content{
   float: right;
   /*width: 62%;*/
-  width:57%;
+  margin-left:5px;
+  width:56%;
 }
 
 .research_content_BioCAS {
@@ -759,9 +773,15 @@ ul.about li {
   /*width: 80%;*/
   width: 600px;
   height: auto;
-  box-shadow:0 0 8px rgba(0,0,0,0.3);
+  /*box-shadow:0 0 8px rgba(0,0,0,0.3);*/
+  border-radius: 13px;
+  border: 5px solid #eee;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+  
   display:block;
-  border-radius:15px;
+  /*border-radius:15px;*/
   margin: 0 auto;
 }
 
@@ -777,12 +797,13 @@ ul.about li {
   display:block;
   /*margin-left: 10%;*/
   margin-bottom: 0;
-  bottom: 0;
+  bottom: 5px;
+  left:5px;
   font-size: 15px;
   font-family: "Roboto";
   font-style: normal;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
 }
 
 
