@@ -28,7 +28,7 @@ time, mark, audio, video {
 body {
   padding:10px 50px 0 0;
   /*font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'museo_sans500' ,Helvetica, Arial, sans-serif;
+  font-family: 'Roboto',Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #232323;
   background-color: #FBFAF7;
@@ -57,7 +57,8 @@ p, ul, ol, table, dl {
 
 h1, h2, h3 {
   /*font-family: 'Arvo', Monaco, serif;*/
-  font-family: 'museo_sans500',Helvetica, Monaco, serif;
+  /*font-family: 'museo_sans500',Helvetica, Monaco, serif;*/
+  font-family: 'Roboto',Helvetica, Monaco, serif;
   line-height:1.3;
   font-weight: normal;
 }
@@ -278,7 +279,7 @@ p.header {
 h1.header {
   /*font-family: 'Arvo', sans-serif;*/
   /*font-family: 'veneer', sans-serif;*/
-  font-family: 'Lato';
+  font-family: 'Roboto';
   /*width: 83%;*/
   width:93%;
   /*font-size: 23.5px;*/
@@ -326,6 +327,7 @@ header li.item{
   font-size: 16px;
   /*font-family: 'Droid Sans';*/
   font-family: 'Lato';
+  /*font-family: 'roboto';*/
   /*padding: 6px 6px 6px 7px;*/
 
   /*background: #AF0011;*/
@@ -424,6 +426,7 @@ section {
   padding-right:50px;
   margin-right: 100px;
   font-family: 'Lato';
+  /*font-family: 'museo_sans500';*/
 }
 
 .section_title {
