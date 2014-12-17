@@ -37,6 +37,8 @@ body {
   -webkit-font-smoothing: antialiased;
 
   overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .scrollable_content {
@@ -845,7 +847,7 @@ footer {
   }
   
   body {
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   section {
@@ -862,6 +864,129 @@ footer {
     right:130px;
     top:84px;
   }
+  
+  .research_container {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  .research_imgs{
+    display: block;
+    /*width: 50%;*/
+    height: auto;
+    max-height: 1000px;
+    overflow: hidden;
+  }
+
+  .research_content{
+    display: block;
+    width:100%;
+  }
+  
+  .research_container img{
+    display:block;
+    max-height: 1000px;
+    width: auto;
+  }
+
+  .imgs_straight img{
+    width: 200px;
+    height: auto;
+  }
+
+  .slideshow figcaption.straight {
+    width: 200px;
+  }
+
+  .slideshow .prev{
+    left: 5px;
+    /*left:0;*/
+    margin-left: 5px;
+    padding: 10px 10px 15px 5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .slideshow .next{
+    /*right: 20px;*/
+    right: 5px;
+    padding: 10px 5px 15px 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  .imgs_straight {
+    width:50%;
+    display: block;
+    /*height: 350px;*/
+    height: auto;
+  }
+  .research_content_BioCAS {
+    display: block;
+    width:100%;
+  }
+
+  .thumbs{
+    width: 100%;
+    /*height: auto;*/
+    /*max-height: 50vh;*/
+    /*overflow: visible;*/
+    overflow: hidden;
+    height: auto;
+    max-height: none;
+
+
+    display: block;
+    padding-top: 30px;
+  }
+
+  .thumbs img{
+    width:22%;
+    float:left;
+    margin: 6px;
+    margin-top: 0px;
+    border-radius:3px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s opacity;
+  }
+
+  .big_img{
+    width: 100%;
+    height: 70vh;
+    display:block;
+    /*padding-top: 30px;*/
+  }
+
+  .big_img img{
+    width: 70%;
+    height: auto;
+    float:left;
+  }
+
+  .big_img p{
+    position: absolute;
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    color: #ddd;
+    background: rgba(0,0,0,0.7);
+    opacity: 0.7;
+    display:block;
+    /*margin-left: 10%;*/
+    margin-bottom: 0;
+    bottom: 5px;
+    left:5px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+  }
+
+
 }
 
 @media print, screen and (max-width: 720px) {
@@ -905,34 +1030,6 @@ footer {
     padding: 0;
     width: 70%;
   }
-  
-  .thumbs{
-    width: 100%;
-    height: auto;
-    /*max-height: 50vh;*/
-    overflow: visible;
-    float: top;
-    padding-top: 30px;
-  }
-
-  .thumbs img{
-    width:22%;
-    float:left;
-    margin: 6px;
-    margin-top: 0px;
-    border-radius:3px;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: 0.3s opacity;
-  }
-
-  .big_img{
-    width: 90%;
-    height: 70vh;
-    float: bottom;
-    /*padding-top: 30px;*/
-  }
-
 
 }
 
