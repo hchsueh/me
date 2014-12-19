@@ -28,7 +28,8 @@ time, mark, audio, video {
 body {
   padding:10px 50px 0 0;
   /*font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Roboto',Helvetica, Arial, sans-serif;
+  /*font-family: 'Roboto',Helvetica, Arial, sans-serif;*/
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #232323;
   background-color: #FBFAF7;
@@ -58,7 +59,8 @@ p, ul, ol, table, dl {
 h1, h2, h3 {
   /*font-family: 'Arvo', Monaco, serif;*/
   /*font-family: 'museo_sans500',Helvetica, Monaco, serif;*/
-  font-family: 'Roboto',Helvetica, Monaco, serif;
+  /*font-family: 'Roboto',Helvetica, Monaco, serif;*/
+  font-family: 'Raleway', sans-serif;
   line-height:1.3;
   font-weight: normal;
 }
@@ -279,7 +281,9 @@ p.header {
 h1.header {
   /*font-family: 'Arvo', sans-serif;*/
   /*font-family: 'veneer', sans-serif;*/
-  font-family: 'Roboto';
+  /*font-family: 'Roboto';*/
+  /*font-family: 'Lato';*/
+  font-family: 'Raleway', sans-serif;
   /*width: 83%;*/
   width:93%;
   /*font-size: 23.5px;*/
@@ -326,7 +330,8 @@ header li.item{
   line-height: 40px;
   font-size: 16px;
   /*font-family: 'Droid Sans';*/
-  font-family: 'Lato';
+  /*font-family: 'Lato';*/
+  font-family: 'Raleway', sans-serif;
   /*font-family: 'roboto';*/
   /*padding: 6px 6px 6px 7px;*/
 
@@ -425,7 +430,8 @@ section {
   width: 850px;
   padding-right:50px;
   margin-right: 100px;
-  font-family: 'Lato';
+  /*font-family: 'Lato';*/
+  font-family: 'Raleway', sans-serif;
   /*font-family: 'museo_sans500';*/
 }
 
@@ -814,7 +820,8 @@ ul.about li {
   bottom: 5px;
   left:5px;
   font-size: 15px;
-  font-family: "Roboto";
+  /*font-family: "Roboto";*/
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   border-bottom-right-radius: 9px;
   border-bottom-left-radius: 9px;
@@ -992,7 +999,8 @@ footer {
     bottom: 5px;
     left:5px;
     font-size: 15px;
-    font-family: "Roboto";
+    /*font-family: "Roboto";*/
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
