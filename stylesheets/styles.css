@@ -523,7 +523,7 @@ ul.about li {
 
 .highlights_description li{
   font-size: 16px;
-  color: #474747;
+  color: #272727;
   line-height: 25px;
   display: table-row;
   text-align: justify;
@@ -538,7 +538,7 @@ ul.about li {
 .highlights_type{
   margin: 10px 0 10px;
   font-size: 16px;
-  color: #474747;
+  color: #272727;
 }
 
 /* research page */
@@ -550,7 +550,7 @@ ul.about li {
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #373737;  
+  color: #171717;
 /*  color: #089108;*/
 }
 
@@ -716,12 +716,12 @@ ul.about li {
 .research_type{
   margin: 10px 0 10px;
   font-size: 16px;
-  color: #474747;
+  color: #272727;
 }
 
 .research_description li{
   font-size: 16px;
-  color: #474747;
+  color: #272727;
   line-height: 25px;
   display: table-row;
   text-align: justify;
